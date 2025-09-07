@@ -1,8 +1,10 @@
 # Tech Bridge Movies
 
 A full-stack movie management application built with React, Node.js, and MongoDB. This project consists of three main components: a client-facing movie browsing interface, an admin dashboard for movie management, and a REST API server.
-admin mail : admin@techbridge.com
-admin pass : admin123
+## admin credential
+
+**admin mail : admin@techbridge.com
+**admin pass : admin123
 
 ## 🚀 Features
 
@@ -264,4 +266,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Tailwind CSS for the utility-first approach
 - MongoDB team for the flexible database solution
 - All contributors and users of this project
+
 
