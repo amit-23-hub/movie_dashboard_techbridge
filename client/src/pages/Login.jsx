@@ -89,7 +89,7 @@ export default function Login() {
 
           <div className="text-sm text-center mt-4 text-gray-600">
             Not a user?{' '}
-            <Link href="/register" className="text-indigo-600 hover:text-indigo-800 font-medium">Sign up here</Link>
+            <Link to="/register" className="text-indigo-600 hover:text-indigo-800 font-medium">Sign up here</Link>
           </div>
         </form>
       </div>
