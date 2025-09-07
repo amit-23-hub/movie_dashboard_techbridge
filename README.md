@@ -131,7 +131,7 @@ tech_bridge/
 5. **Access the applications**
    - Client Application: http://localhost:5173
    - Admin Dashboard: http://localhost:5174
-   - API Server: http://localhost:5000
+   - API Server: https://mov-backend-l34e.onrender.com
 
 ## 📖 API Documentation
 

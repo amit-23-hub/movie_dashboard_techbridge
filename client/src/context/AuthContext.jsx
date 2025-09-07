@@ -16,7 +16,7 @@ export function AuthProvider({ children }) {
       setAuthLoading(false);
       return;
     }
-    fetch('http://localhost:5000/api/auth/me', {
+    fetch('https://mov-backend-l34e.onrender.com/api/auth/me', {
       headers: { Authorization: `Bearer ${token}` },
       credentials: 'include'
     })

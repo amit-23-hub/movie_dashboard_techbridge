@@ -26,7 +26,7 @@ export default function Dashboard() {
 
   const fetchMovies = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/movies', {
+      const response = await fetch('https://mov-backend-l34e.onrender.com/api/movies', {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`
         }
@@ -44,8 +44,8 @@ export default function Dashboard() {
     e.preventDefault();
     try {
       const url = editingMovie 
-        ? `http://localhost:5000/api/movies/${editingMovie._id}`
-        : 'http://localhost:5000/api/movies';
+        ? `https://mov-backend-l34e.onrender.com/api/movies/${editingMovie._id}`
+        : 'https://mov-backend-l34e.onrender.com/api/movies';
       
       const method = editingMovie ? 'PUT' : 'POST';
       
@@ -80,7 +80,7 @@ export default function Dashboard() {
     if (!window.confirm('Are you sure you want to delete this movie?')) return;
     
     try {
-      const response = await fetch(`http://localhost:5000/api/movies/${id}`, {
+      const response = await fetch(`https://mov-backend-l34e.onrender.com/api/movies/${id}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`

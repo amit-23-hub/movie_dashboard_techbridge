@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (!token) { setAuthLoading(false); return; }
-    fetch('http://localhost:5000/api/auth/me', {
+    fetch('https://mov-backend-l34e.onrender.com/api/auth/me', {
       headers: { 'Authorization': `Bearer ${token}` },
       credentials: 'include'
     })
@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (email, password) => {
-    const response = await fetch('http://localhost:5000/api/auth/login', {
+    const response = await fetch('https://mov-backend-l34e.onrender.com/api/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

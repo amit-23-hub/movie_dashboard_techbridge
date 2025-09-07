@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://mov-backend-l34e.onrender.com/api';
 
 const handleResponse = async (response) => {
   if (!response.ok) {
