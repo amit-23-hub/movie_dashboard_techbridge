@@ -1,6 +1,8 @@
 # Tech Bridge Movies
 
 A full-stack movie management application built with React, Node.js, and MongoDB. This project consists of three main components: a client-facing movie browsing interface, an admin dashboard for movie management, and a REST API server.
+admin mail : admin@techbridge.com
+admin pass : admin123
 
 ## 🚀 Features
 
@@ -103,9 +105,9 @@ tech_bridge/
    
    Create a `.env` file in the server directory:
    ```env
-   MONGODB_URI=mongodb://localhost:27017/tech_bridge_movies
-   JWT_SECRET=your_jwt_secret_key_here
-   PORT=5000
+ PORT=5000
+ MONGODB_URI=mongodb+srv://amitsahani2322003_db_user:yC6NlxSE8Yz88kqp@cluster0.g7ptobg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+ JWT_SECRET=tech-bridge
    ```
 
 4. **Start the applications**
@@ -129,8 +131,8 @@ tech_bridge/
    ```
 
 5. **Access the applications**
-   - Client Application: http://localhost:5173
-   - Admin Dashboard: http://localhost:5174
+   - Client Application: https://movie-client-omega.vercel.app/
+   - Admin Dashboard: https://movie-admin-olive.vercel.app/
    - API Server: https://mov-backend-l34e.onrender.com
 
 ## 📖 API Documentation
@@ -262,3 +264,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Tailwind CSS for the utility-first approach
 - MongoDB team for the flexible database solution
 - All contributors and users of this project
+
