@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation,Link } from 'react-router-dom';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -89,7 +89,7 @@ export default function Login() {
 
           <div className="text-sm text-center mt-4 text-gray-600">
             Not a user?{' '}
-            <a href="/register" className="text-indigo-600 hover:text-indigo-800 font-medium">Sign up here</a>
+            <Link href="/register" className="text-indigo-600 hover:text-indigo-800 font-medium">Sign up here</Link>
           </div>
         </form>
       </div>

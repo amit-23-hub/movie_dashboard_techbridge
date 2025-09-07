@@ -20,7 +20,7 @@ router.post('/init-users', async (req, res) => {
     const users = [
      
       {
-        email: 'admin@techbridges.com',
+        email: 'admin@techbridge.com',
         password: 'admin123',
         role: 'admin'
       }
