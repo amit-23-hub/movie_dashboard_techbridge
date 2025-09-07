@@ -228,20 +228,6 @@ tech_bridge/
 2. Configure environment variables
 3. Build production versions of client and admin apps
 4. Deploy server to your preferred hosting platform
-
-### Production Build
-```bash
-# Build client
-cd client
-npm run build
-
-# Build admin
-cd admin
-npm run build
-
-# Start server
-cd server
-npm start
 ```
 
 ## 🤝 Contributing
@@ -258,7 +244,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Your Name** - *Initial work* - [amit](https://github.com/amit-23-hub)
 
 ## 🙏 Acknowledgments
 
@@ -266,6 +252,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Tailwind CSS for the utility-first approach
 - MongoDB team for the flexible database solution
 - All contributors and users of this project
+
 
 
 
